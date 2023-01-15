@@ -8,15 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -D build"
+    "deploy": "npx gh-pages -d dist"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "gh-pages": "^4.0.0",
     "svelte": "^3.54.0",
     "vite": "^4.0.0"
-  },
-  "dependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
